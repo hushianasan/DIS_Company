@@ -26,7 +26,7 @@
 ## API, Package(予定)
 
 * Python3
-  * Pip
+  * PIP
 
 ## 指針
 
