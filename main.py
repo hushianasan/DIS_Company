@@ -2,12 +2,11 @@ import os
 import requests
 import json
 
-# 気象庁データの取得
-A = open("https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json", "r")
-B = json.load(A) 
-#print(B)
+print(os.getcwd())
 
-'''
-jma_url = "https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json"
-print(jma_url)
-'''
+# 気象庁データの取得
+url = 'https://www.jma.go.jp/bosai/forecast/data/forecast/130000.json'
+response = requests.get(url)
+data = response.json()
+
+print("response : ", json.dumps(data, indent=2))
