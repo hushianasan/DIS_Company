@@ -21,12 +21,12 @@
 
 * VSCode
   * Git
-  * Codic
 
 ## API, Package(予定)
 
 * Python3
   * PIP
+  * BeautifulSoup
 
 ## 指針
 
