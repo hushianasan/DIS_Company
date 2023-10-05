@@ -27,6 +27,7 @@
 * Python3
   * PIP
   * BeautifulSoup
+  * Pandas
 
 ## 指針
 
@@ -59,9 +60,15 @@
 4. 関数をうまいこと
 
 ## 出典
+* ChatGPT3-5
+* 新・明解 Python入門 紫田望洋 初版
+* 気象庁HP
+* 気象庁 非公開JSON[^1]
 
 ## 補足
 
 多分わたしはJavaとPHPは使えない。
 
 ガラパゴス化しないよう、なるべく初学者向けで１台のみのパソコンで動くように。
+
+[^1]:https://qiita.com/taoka-toshiaki/items/3e1d5bcf92c569955fec
